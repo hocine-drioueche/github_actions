@@ -1,6 +1,3 @@
-
-
-
 name: Shell commands
 
 on: [push]
@@ -25,7 +22,7 @@ jobs:
 
       - name: multiline script
 
-        x
+
 run: |
 
           python3 -V
