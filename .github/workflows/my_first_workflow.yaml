@@ -1,5 +1,6 @@
 
 
+
 name: Shell commands
 
 on: [push]
@@ -24,10 +25,35 @@ jobs:
 
       - name: multiline script
 
-        run: |
+        x
+run: |
 
           python3 -V
 
           touch my_file_with_workflow.py
 
           ls -l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
